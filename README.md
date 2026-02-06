@@ -2,6 +2,21 @@
 
 Repo di configurazione per shell (bash + zsh), tmux e vim con installazione **senza dipendenze** (symlink + backup).
 
+## Prerequisiti (Ubuntu)
+
+Questi dotfiles **non installano pacchetti automaticamente**.
+
+Installare manualmente:
+
+```bash
+sudo apt update
+sudo apt install -y \
+  vim \
+  tmux \
+  git \
+  curl
+```
+
 ## Installazione
 
 ```bash
