@@ -1,0 +1,11 @@
+# ~/.bashrc.local (example)
+export PYTHONPATH="$HOME/deep-learning/caffe/python:$PYTHONPATH"
+alias pdf-editor="$HOME/bin/master-pdf-editor-3/masterpdfeditor3"
+alias itksnap="$HOME/bin/itksnap-3.6.0-rc1-20161029-Linux-x86_64/bin/itksnap"
+alias paraview="$HOME/bin/ParaView-5.2.0-RC3-Qt4-OpenGL2-MPI-Linux-64bit/bin/paraview"
+alias fiji="$HOME/bin/Fiji.app/ImageJ-linux64"
+alias asap="/opt/ASAP/bin/ASAP"
+alias zotero="$HOME/bin/Zotero_linux-x86_64/zotero"
+alias matlab17b="/usr/local/MATLAB/R2017b/bin/matlab"
+alias count_file='find . -type f | wc -l'
+alias connect2philae='sshfs ponzio@philae.polito.it:/home/ponzio "$HOME/Philae_server/"'

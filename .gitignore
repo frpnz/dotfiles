@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Vim: generated plugins
+vim/.vim/plugged/
+vim/.vim/autoload/plug.vim
+
+# Local overrides (never commit secrets / machine-specific paths)
+bash/.bashrc.local
+zsh/.zshrc.local
