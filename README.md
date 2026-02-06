@@ -20,7 +20,7 @@ sudo apt install -y \
 ## Installazione
 
 ```bash
-git clone <IL-TUO-REPO> ~/dotfiles
+git clone git@github.com:frpnz/dotfiles.git
 cd ~/dotfiles
 ./install.sh
 ```
